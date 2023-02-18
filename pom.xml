@@ -109,12 +109,9 @@
 						<image>openjdk:11</image>
 					</from>
 					<to>
-						<image>registry.hub.docker.com/rabtab/productservice</image>
+						<!--suppress UnresolvedMavenProperty -->
+						<image>${REPO_URL}/productservice</image>
 						<tags>${project.version}</tags>
-						<auth>
-							<username>rabtab</username>
-							<password>D0ck#r@22</password>
-						</auth>
 					</to>
 				</configuration>
 			</plugin>
